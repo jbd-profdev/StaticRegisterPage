@@ -1,6 +1,9 @@
 body{
     background-color: #76c8ff;
     margin: 0;
+    font-family: sans-serif;
+    display: flex;
+    height: 100vh;
 }
 
 header{
@@ -33,4 +36,19 @@ header a{
 header a:hover{
     background-color: #1084d1;
     cursor: pointer;
+}
+
+.container{
+    margin: auto;
+    padding: 1.5rem;
+    background-color: white;
+    border: solid 1px gray;
+    border-radius: 5px;
+    box-shadow: 
+        0 4px 8px 0 rgba(0, 0, 0, .2),
+        0 6px 20px 0 rgba(0, 0, 0, .19);
+}
+
+.container > h1{
+    margin: 0 0 .5rem;
 }
